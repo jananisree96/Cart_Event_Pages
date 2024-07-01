@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .main {
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .message {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    margin-top: 1rem;
+    cursor: pointer;
+    color:white;
+    background-color: rgba(255,50,105,1);
+    border:none;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+ 
